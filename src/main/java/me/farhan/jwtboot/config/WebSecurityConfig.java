@@ -29,8 +29,6 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
   @Autowired
   private JwtAuthenticationEntryPoint unauthorizedHandler;
 
-
-
   @Autowired
   public void configureAuthentication(AuthenticationManagerBuilder authenticationManagerBuilder) throws Exception {
     authenticationManagerBuilder

@@ -1,4 +1,4 @@
-package me.farhan.jwtboot.services;
+package me.farhan.jwtboot.service;
 
 import java.io.Serializable;
 

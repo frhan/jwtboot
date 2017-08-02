@@ -1,4 +1,4 @@
-package me.farhan.jwtboot.services;
+package me.farhan.jwtboot.service;
 
 import me.farhan.jwtboot.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;

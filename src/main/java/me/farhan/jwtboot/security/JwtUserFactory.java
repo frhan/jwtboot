@@ -15,7 +15,7 @@ public final class JwtUserFactory {
   }
 
   public static UserDto create(User user) {
-    return new UserDto(user.getFirstName(),user.getLastName(),user.getEmail(),user.getPassword(),user.isEnabled());
+    return new UserDto(user.getFirstName(),user.getLastName(),user.getUserName(),user.getEmail(),user.getPassword(),user.isEnabled());
   }
 
 //  private static List<GrantedAuthority> mapToGrantedAuthorities(List<Authority> authorities) {
